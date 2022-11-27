@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="QYZYLiveItemView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="igG-je-Uyp">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="856"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1QT-BU-OL2">
+                    <rect key="frame" x="0.0" y="828" width="414" height="28"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是一个小主播…" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4YI-dw-SSA">
+                            <rect key="frame" x="12" y="0.0" width="80" height="28"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="soi-Fd-eV9"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hotLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1QZ-hF-WW8">
+                            <rect key="frame" x="366" y="8" width="42" height="12"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="live_list_hot" highlightedImage="live_list_hot" translatesAutoresizingMaskIntoConstraints="NO" id="4nW-8x-zRl">
+                            <rect key="frame" x="350" y="7" width="13" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="13" id="ATY-k7-hwP"/>
+                                <constraint firstAttribute="height" constant="14" id="dN1-TZ-9Op"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBlueColor"/>
+                    <constraints>
+                        <constraint firstItem="1QZ-hF-WW8" firstAttribute="leading" secondItem="4nW-8x-zRl" secondAttribute="trailing" constant="3" id="CZj-Lx-M6B"/>
+                        <constraint firstAttribute="trailing" secondItem="1QZ-hF-WW8" secondAttribute="trailing" constant="6" id="DqK-7E-yWH"/>
+                        <constraint firstItem="4YI-dw-SSA" firstAttribute="leading" secondItem="1QT-BU-OL2" secondAttribute="leading" constant="12" id="Dsm-O4-kLL"/>
+                        <constraint firstItem="4nW-8x-zRl" firstAttribute="centerY" secondItem="1QT-BU-OL2" secondAttribute="centerY" id="U6B-y8-ieG"/>
+                        <constraint firstAttribute="height" constant="28" id="jky-JO-TEw"/>
+                        <constraint firstItem="4YI-dw-SSA" firstAttribute="top" secondItem="1QT-BU-OL2" secondAttribute="top" id="nF2-ef-Rxp"/>
+                        <constraint firstItem="1QZ-hF-WW8" firstAttribute="centerY" secondItem="1QT-BU-OL2" secondAttribute="centerY" id="szL-hz-L8f"/>
+                        <constraint firstAttribute="bottom" secondItem="4YI-dw-SSA" secondAttribute="bottom" id="thc-zf-zXA"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="什么时候才能春暖花开" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwm-Vo-Zte">
+                    <rect key="frame" x="6" y="856" width="400" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="ktI-fH-hxm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="dwm-Vo-Zte" secondAttribute="bottom" constant="6" id="0CI-nU-PsC"/>
+                <constraint firstAttribute="trailing" secondItem="igG-je-Uyp" secondAttribute="trailing" id="ErX-uh-IWD"/>
+                <constraint firstItem="dwm-Vo-Zte" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="6" id="GQb-dq-sQr"/>
+                <constraint firstItem="1QT-BU-OL2" firstAttribute="leading" secondItem="igG-je-Uyp" secondAttribute="leading" id="Q8N-2r-S6L"/>
+                <constraint firstItem="1QT-BU-OL2" firstAttribute="trailing" secondItem="igG-je-Uyp" secondAttribute="trailing" id="apO-3w-tW1"/>
+                <constraint firstItem="igG-je-Uyp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cKC-BK-xrC"/>
+                <constraint firstItem="igG-je-Uyp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="eLH-Cb-hDS"/>
+                <constraint firstAttribute="trailing" secondItem="dwm-Vo-Zte" secondAttribute="trailing" constant="8" id="fVs-VK-FrS"/>
+                <constraint firstItem="1QT-BU-OL2" firstAttribute="bottom" secondItem="igG-je-Uyp" secondAttribute="bottom" id="oVo-oX-Tfv"/>
+                <constraint firstAttribute="bottom" secondItem="igG-je-Uyp" secondAttribute="bottom" constant="40" id="vQD-Zy-G8Q"/>
+            </constraints>
+            <connections>
+                <outlet property="bottomView" destination="1QT-BU-OL2" id="0Z6-bj-36V"/>
+                <outlet property="coverImageView" destination="igG-je-Uyp" id="LiH-VQ-YBU"/>
+                <outlet property="hotLabel" destination="1QZ-hF-WW8" id="BBB-4O-asD"/>
+                <outlet property="nameLabel" destination="4YI-dw-SSA" id="Ntv-sA-ESv"/>
+                <outlet property="titleLabel" destination="dwm-Vo-Zte" id="Ndq-Vd-8yv"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="140"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="live_list_hot" width="20" height="20"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

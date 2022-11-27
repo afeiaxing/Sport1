@@ -1,0 +1,1 @@
+../../../FGIAPService/FGIAPService/Classes/FGIAPManager.h
